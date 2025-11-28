@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush-Developer Portfoloio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+        <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* Fallback background color before Vanta loads */
+            background-color: #101828; 
+            /* Set default text color to white for readability on dark background */
+            color: white; 
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(194, 219, 196);
+            /* Set nav text color back to black */
+            color: black;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 23px;
+            color: black; /* Make nav links black */
+        }
+
+        nav ul li a:hover {
+            color: rgb(53, 109, 109);
+            font-size: 1.03rem;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px;
+            align-items: center;
+            height: calc(100vh - 80px); /* Make first section fill the viewport */
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .rightSection img {
+            width: 100%;
+            margin: 50px 0;
+        }
+
+        .red {
+            color: #81D4FA; /* Lighter blue for better contrast */
+        }
+
+        #typed {
+            color: #81D4FA; /* Lighter blue for better contrast */
+        }
+
+        .me {
+            height: 80px;
+            width: 80px;
+            border-radius: 60%;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .text-grey {
+            color: rgb(190, 190, 190); /* Lighter grey for readability */
+        }
+        
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .box {
+            background: white; /* Box doesn't need a background */
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .vertical {
+            height: 93px;
+            width: 2px;
+            background-color: white; /* Changed to white */
+            margin: 0 130px;
+        }
+
+        .image-top {
+            width: 27px;
+            position: relative;
+            top: -32px;
+            left: -13px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            color: white;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            width: 175px;
+            color: rgb(200, 200, 200); /* Lighter desc color */
+            font-size: 12px;
+        }
+
+        .myprojects{
+            margin-top: 220px;
+        }
+    </style>
+</head>
+
+<body> 
+    <header>
+        <!-- # Hamburger Menu -->
+        <nav>
+            <li>
+  <button><i class="fas fa-bars"></i></button>
+</li>
+            <div><a href="my_portfolio.html">
+
+                    <img src="me.png" alt="" class="me">
+                </a>
+            </div>
+            <div class="left">Piyush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li><a href="/">Sevices</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li> <a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="red"> Piyush </span>
+                <div>and I am a Fullstack Developer</div>
+                <span id="typed"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.webp" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far..</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html-5.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt autem eveniet accusamus, hic
+                        laboriosam, libero quaerat nulla atque ipsam beatae ex, quae officia eum distinctio reiciendis
+                        quisquam. Odio, molestias laboriosam.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt autem eveniet accusamus, hic
+                        laboriosam, libero quaerat nulla atque ipsam beatae ex, quae officia eum distinctio reiciendis
+                        quisquam. Odio, molestias laboriosam.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java-script.png" alt="">
+                    <div class="vertical-title">
+                        Javascript
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt autem eveniet accusamus, hic
+                        laboriosam, libero quaerat nulla atque ipsam beatae ex, quae officia eum distinctio reiciendis
+                        quisquam. Odio, molestias laboriosam.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="vertical-title">
+                        React
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt autem eveniet accusamus, hic
+                        laboriosam, libero quaerat nulla atque ipsam beatae ex, quae officia eum distinctio reiciendis
+                        quisquam. Odio, molestias laboriosam.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h1 class="myprojects">My Projects</h1>
+                <div class="projects">
+
+
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Typed("#typed", {
+                strings: ["Developer", "Designer", "Coder", "Piyush"],
+                typeSpeed: 120,
+                loop: true
+            });
+        });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+    <script>
+    VANTA.DOTS({
+      el: "body", // Target the <body> tag
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x81d4fa,
+      backgroundColor: 0x101828,
+      showLines: false
+    })
+    </script>
+</body>
+
+</html>
